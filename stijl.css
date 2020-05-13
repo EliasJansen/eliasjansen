@@ -1,0 +1,2733 @@
+
+
+.menu {
+	position: absolute;
+	top: 3rem;
+	right: 3rem;
+}
+
+.menu img:hover {
+	transform:rotate(5deg);
+}
+
+
+nav {
+	background-color: black;
+	width: 1vh;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 5rem;
+  z-index: 100;
+}
+
+nav.onzichtbaar {
+	display: none;
+
+}
+
+main {
+	min-height: 80vh;
+	padding: 3rem;
+}
+
+
+header {
+  padding-top: 1rem;
+}
+
+header nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 1.2rem;
+	margin-right: 10rem;
+	padding: 1rem;
+  display: block;
+  	margin-bottom: 3rem;
+    font-family: monospace;
+
+
+}
+
+header nav a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+
+
+.icons-social {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+}
+
+
+
+.icons-social img {
+  width: 1rem;
+  margin-right: 0.6rem;
+  padding-bottom: 0.3rem;
+
+}
+
+.icons-social img:hover {
+  border-bottom: 0.05rem solid black;
+
+}
+
+
+
+canvas {
+  position: absolute;
+  top: 35rem;
+  animation-name: h1;
+  animation-duration: 1.2s;
+  animation-delay: 0.5s;
+  animation-direction: alternate;
+  animation-fill-mode: backwards;
+}
+
+@keyframes h1 {
+0%   {opacity: 0%; }
+  100% {opacity: 100%;}
+}
+
+
+@keyframes background {
+0%   {opacity: 0%; }
+  100% {opacity: 0%;}
+}
+
+
+.logo {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+
+.logo1 {
+  animation-name: example;
+  animation-duration: 1.2s;
+  animation-direction: alternate;
+  animation-fill-mode: backwards;
+  width: 5rem;
+}
+
+ul {
+  list-style-type: none;
+  position: absolute;
+  top: 3.5rem;
+  right: 5rem;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+
+li a {
+  display: block;
+color: black;
+text-align: center;
+padding: 17px 20px;
+padding-right: 1rem;
+text-decoration: none;
+font-family: 'Space Mono', monospace;
+font-size: 0.9rem;
+}
+
+li a:hover {
+  background-image: url(background.png);
+}
+
+li {
+  float: left;
+}
+
+
+@keyframes example {
+0%   {width: 100rem;  }
+  100% {width: 5rem;}
+}
+
+@keyframes background {
+0%   {width: 300rem;background-image: url(background.png);opacity: 100rem;  }
+100% {width: 5rem;background-image: url(background.png);opacity: 0rem; }
+}
+
+
+
+
+.icons-social {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+}
+
+
+
+.icons-social img {
+  width: 1rem;
+  margin-right: 0.6rem;
+  padding-bottom: 0.3rem;
+
+}
+
+.icons-social img:hover {
+  border-bottom: 0.05rem solid black;
+
+}
+
+
+h1 {
+font-family: 'Roboto', sans-serif;
+font-size: 2rem;
+position: absolute;
+top: 12rem;
+left: 2rem;
+width: 20rem;
+animation-name: h1;
+animation-duration: 1.2s;
+animation-delay: 0.5s;
+animation-direction: alternate;
+animation-fill-mode: backwards;
+}
+
+canvas {
+  position: absolute;
+  top: 25rem;
+	left: 0rem;
+  animation-name: h1;
+  animation-duration: 1.2s;
+  animation-delay: 0.5s;
+  animation-direction: alternate;
+  animation-fill-mode: backwards;
+}
+
+@keyframes h1 {
+0%   {opacity: 0%; }
+  100% {opacity: 100%;}
+}
+
+
+@keyframes background {
+0%   {opacity: 0%; }
+  100% {opacity: 0%;}
+}
+
+
+.logo {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+
+.logo1 {
+  animation-name: example;
+  animation-duration: 1.2s;
+  animation-direction: alternate;
+  animation-fill-mode: backwards;
+  width: 5rem;
+}
+
+ul {
+  list-style-type: none;
+  position: absolute;
+  top: 3.5rem;
+  right: 5rem;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+li a {
+  display: block;
+color: black;
+text-align: center;
+padding: 17px 20px;
+padding-right: 1rem;
+text-decoration: none;
+font-family: 'Space Mono', monospace;
+font-size: 0.9rem;
+}
+
+li a:hover {
+  background-image: url(background.png);
+}
+
+li {
+  float: left;
+}
+
+
+@keyframes example {
+0%   {width: 100rem;  }
+  100% {width: 5rem;}
+}
+
+@keyframes background {
+0%   {width: 300rem;background-image: url(background.png);opacity: 100rem;  }
+100% {width: 5rem;background-image: url(background.png);opacity: 0rem; }
+}
+
+
+.icons {
+  margin-left: 8rem;
+  margin-top: 31rem;
+  width: 4rem;
+  animation-name: h1;
+  animation-duration: 1.2s;
+  animation-delay: 1s;
+  animation-direction: alternate;
+  animation-fill-mode: backwards;
+}
+
+
+.text p {
+	font-family: 'Space Mono', monospace;
+	font-size: 0.7rem;
+  animation-name: h1;
+  animation-duration: 1.2s;
+  animation-delay: 1.4s;
+  animation-direction: alternate;
+  animation-fill-mode: backwards;
+	margin-left: 8.1rem;
+}
+
+.gallery .rebranding {
+	width: 25rem;
+	margin-left: -5rem;
+	margin-top: 3rem;
+}
+
+.jaar {
+	width: 10rem;
+	position: absolute;
+	top: 48rem;
+	left: 11rem;
+}
+
+.gallery p {
+	font-family: roboto;
+	margin-left: 5rem;
+	color: black;
+	width: 6.5rem;
+	margin-top: 2rem;
+}
+
+.gallery a {
+	text-decoration: none;
+}
+
+.gallery  a p:hover {
+	border-bottom: 0.1rem solid black;
+}
+
+#container {
+  margin: 0%;
+  margin-top: -35rem;
+  margin-left: 5.5rem;
+	display: none;
+}
+
+#circle {
+  position: relative;
+  width: 50%;
+  padding-bottom: 20%;
+  overflow: hidden;
+
+}
+
+#circle text { font-family: 'Helvetica Neue', Arial; font-size: 17px; font-weight: bold; }
+
+#circle svg {
+	width: 70%;
+	height: 540px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+.circle {
+	width: 15rem;
+	margin-left:  -1rem;
+	margin-top: 5rem;
+}
+
+.waves {
+	display: none;
+}
+
+.paths {
+	display: none;
+}
+
+.jaar2 {
+	width: 10rem;
+	position: absolute;
+	top: 80rem;
+	left: 13rem;
+	transform: rotate(-90deg);
+}
+
+.gallery2 p {
+	font-family: roboto;
+	margin-left: 8rem;
+	margin-top: 4rem;
+	color: black;
+	width: 6.5rem;
+}
+
+.gallery2 a {
+	text-decoration: none;
+}
+
+.gallery2 a p:hover {
+	border-bottom: 0.1rem solid black;
+}
+
+#container2 {
+  margin: 0%;
+  margin-top: -32rem;
+  margin-right: 23rem;
+	display: none;
+}
+
+#circle2 {
+  position: relative;
+  width: 200%;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+#circle2 text { font-family: 'Helvetica Neue', Arial; font-size: 19.5px; font-weight: bold; }
+
+#circle2 svg {
+	width: 200%;
+	height: 540px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+.einde  {
+	width: 15rem;
+	margin-top: 4rem;
+	margin-left: -1.5rem;
+}
+
+.jaja {
+	display: none;
+}
+
+.jaar3 {
+	position: absolute;
+	top: 115rem;
+	left: 13rem;
+	width: 10rem;
+	transform: rotate(90deg);
+}
+
+.design p {
+	font-family: roboto;
+	margin-left: 8rem;
+	margin-top: 3rem;
+	color: black;
+	width: 6.5rem;
+}
+
+.design a {
+	text-decoration: none;
+}
+
+.design a p:hover {
+	border-bottom: 0.1rem solid black;
+}
+
+
+#container3 {
+  margin: 0%;
+  margin-top: -32rem;
+  margin-right: 5rem;
+	display: none;
+}
+
+#circle3 {
+  position: relative;
+  width: 50%;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+#circle3 text { font-family: 'Helvetica Neue', Arial; font-size: 19.5px; font-weight: bold; }
+
+#circle3 svg {
+	width: 100%;
+	height: 540px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+.banner {
+	width: 15rem;
+	margin-top: 10rem;
+	margin-left: -1.5rem;
+}
+
+.timetable {
+	display: none;
+}
+
+.jaar4 {
+	width: 10rem;
+	margin-top: 0.5rem;
+	margin-left: 0rem;
+}
+
+
+.design2 p {
+	font-family: roboto;
+	margin-left: 8rem;
+	margin-top: 3rem;
+	color: black;
+	width: 6.5rem;
+}
+
+.design2 a {
+	text-decoration: none;
+}
+
+.design2 a p:hover {
+	border-bottom: 0.1rem solid black;
+}
+
+#container4 {
+position: absolute;
+top: 125rem;
+left: -2rem;
+display: none;
+}
+
+#circle4 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+#circle4 text { font-family: 'Helvetica Neue', Arial; font-size: 18px; font-weight: bold; }
+
+#circle4 svg {
+	width: 120%;
+	height: 540px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+.app2 {
+	display: none;
+}
+.app1 {
+	width: 15rem;
+	margin-top: 10rem;
+	margin-left: 2rem;
+}
+
+.app3 {
+	display: none;
+}
+
+.jaar5 {
+	width: 20rem;
+	position: absolute;
+	top: 180rem;
+	left: -6rem;
+	transform: rotate(-90deg);
+}
+
+.design3 p {
+	font-family: roboto;
+	margin-left: 8rem;
+	margin-top: 3rem;
+	color: black;
+	width: 6.5rem;
+}
+
+.design3 a {
+	text-decoration: none;
+}
+
+.design3 a p:hover {
+	border-bottom: 0.1rem solid black;
+}
+
+#container5 {
+position: absolute;
+top: 160rem;
+left: 13rem;
+display: none;
+}
+
+#circle5 {
+  position: relative;
+  width: 50%;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+#circle5 text { font-family: 'Helvetica Neue', Arial; font-size: 17px; font-weight: bold; }
+
+#circle5 svg {
+	width: 100%;
+	height: 540px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+.gallery6 img {
+	width: 15rem;
+	margin-top: 10rem;
+	margin-left: 2rem;
+}
+
+.jaar6 {
+	width: 10rem;
+	position: absolute;
+	top: 200rem;
+	left: 6rem;
+}
+
+.design4 p {
+	font-family: roboto;
+	margin-left: 8rem;
+	margin-top: 3rem;
+	color: black;
+	width: 6.5rem;
+}
+
+.design4 a {
+	text-decoration: none;
+}
+
+.design4 a p:hover {
+	border-bottom: 0.1rem solid black;
+}
+
+#container6 {
+position: absolute;
+top: 210rem;
+left: 0rem;
+display: none;
+}
+
+#circle6 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+#circle6 text { font-family: 'Helvetica Neue', Arial; font-size: 18px; font-weight: bold; }
+
+#circle6 svg {
+	width: 120%;
+	height: 540px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+.gallery7 img {
+	width: 20rem;
+	margin-left: 0rem;
+	margin-top:  8rem;
+}
+
+.jaar7 {
+	width: 13rem;
+	transform: rotate(90deg);
+	margin-left: -7rem;
+	margin-top: -6rem;
+}
+
+.design5 p {
+	font-family: roboto;
+	margin-left: 10rem;
+	margin-top: 0rem;
+	color: black;
+	width: 6.5rem;
+}
+
+.design5 a {
+	text-decoration: none;
+}
+
+.design5 a p:hover {
+	border-bottom: 0.1rem solid black;
+}
+
+#container7 {
+position: absolute;
+top: 226rem;
+left: 14rem;
+display: none;
+}
+
+#circle7 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+#circle7 text { font-family: 'Helvetica Neue', Arial; font-size: 18px; font-weight: bold; }
+
+#circle7 svg {
+	width: 100%;
+	height: 540px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+.gallery8 img {
+	width: 15rem;
+	margin-top: 10rem;
+	margin-left: 2rem;
+}
+
+.jaar8 {
+	width: 13rem;
+	margin-left: 7rem;
+}
+
+
+.design6 p {
+	font-family: roboto;
+	margin-left: 12rem;
+	margin-top: 2rem;
+	color: black;
+	width: 6.5rem;
+}
+
+.design6 a {
+	text-decoration: none;
+}
+
+.design6 a p:hover {
+	border-bottom: 0.1rem solid black;
+}
+
+
+#container8 {
+position: absolute;
+top: 267.8rem;
+left: 2.2rem;
+display: none;
+}
+
+#circle8 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+#circle8 text { font-family: 'Helvetica Neue', Arial; font-size: 17.5px; font-weight: bold; }
+
+#circle8 svg {
+	width: 100%;
+	height: 540px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+.magazine1 {
+	display: none;
+}
+
+.magazine2 {
+	width: 15rem;
+	margin-top: 10rem;
+	margin-left: 2rem;
+}
+
+.jaar9 {
+	width: 10rem;
+	transform:rotate(-90deg);
+	position: absolute;
+	top: 300rem;
+	left: 13rem;
+}
+
+
+.design7 p {
+	font-family: roboto;
+	margin-left: 12rem;
+	margin-top: 2rem;
+	color: black;
+	width: 6.5rem;
+
+}
+
+.design7 a {
+	text-decoration: none;
+}
+
+.design7 a p:hover {
+	border-bottom: 0.1rem solid black;
+}
+
+
+#container9 {
+position: absolute;
+top: 290rem;
+left: 13rem;
+display: none;
+}
+
+#circle9 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+#circle9 text { font-family: 'Helvetica Neue', Arial; font-size: 19px; font-weight: bold; }
+
+#circle9 svg {
+	width: 100%;
+	height: 540px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+.filmposter1 {
+	display: none;
+}
+
+.filmposter2 {
+	width: 15rem;
+	margin-top: 12rem;
+	margin-left: 2rem;
+}
+
+.jaar10 {
+	position: absolute;
+	top: 321rem;
+	width: 10rem;
+	left: 10rem;
+}
+
+
+.design8 p {
+	font-family: roboto;
+	margin-left: 12rem;
+	margin-top: 3rem;
+	color: black;
+	width: 6.5rem;
+}
+
+.design8 a {
+	text-decoration: none;
+}
+
+.design8 a p:hover {
+	border-bottom: 0.1rem solid black;
+}
+
+
+#container10 {
+position: absolute;
+top: 330rem;
+left: 13rem;
+display: none;
+}
+
+#circle10 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+#circle10 text { font-family: 'Helvetica Neue', Arial; font-size: 19px; font-weight: bold; }
+
+#circle10 svg {
+	width: 100%;
+	height: 540px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+footer {
+margin-top: 8rem;
+margin-bottom: 4rem;
+}
+
+footer p {
+	font-family: monospace;
+	margin-left: 6rem;
+
+}
+
+.social-footer {
+margin-left: 9rem;
+margin-bottom: 1rem;
+}
+
+
+
+.social-footer img {
+  width: 1rem;
+  margin-right: 0.6rem;
+  padding-bottom: 0.3rem;
+
+}
+
+.social-footer img:hover {
+  border-bottom: 0.05rem solid black;
+
+}
+
+.halo_gallery h1 {
+	margin-left: 0rem;
+	margin-top: 0rem;
+}
+
+.halo_gallery p {
+	margin-top: 9rem;
+	margin-left: -1rem;
+	width: 20rem;
+	font-family: monospace;
+}
+
+
+
+.brandguide img {
+	width: 20rem;
+	margin-left: 0rem;
+}
+
+.brandguide {
+	margin-top: -20rem;
+}
+
+.footer_rebranding {
+	margin-top: 0rem;
+}
+
+.footer_rebranding p {
+	padding-bottom: 3rem;
+	margin-left: 6rem;
+}
+
+.own h1 {
+	margin-left: 0rem;
+	margin-top: 0rem;
+}
+
+.own p {
+	margin-top: 9rem;
+	margin-left: -1rem;
+	width: 20rem;
+	font-family: monospace;
+}
+
+.images img {
+	width: 20rem;
+}
+
+.images {
+	margin-left: 2rem;
+	margin-top: -15rem;
+}
+
+.arte h1 {
+	margin-left: 0rem;
+	margin-top: 0rem;
+}
+
+.arte p {
+	margin-top: 9rem;
+	margin-left: -1rem;
+	width: 20rem;
+	font-family: monospace;
+}
+
+.images2 {
+	margin-top: -20rem;
+}
+
+.images2 img {
+	width: 20rem;
+	margin-left: 1rem;
+	margin-bottom: 2rem;
+}
+
+
+
+.artwork p {
+	margin-top: 6rem;
+	margin-left: -1rem;
+	width: 20rem;
+	font-family: monospace;
+}
+
+.images3 {
+	margin-top: -27rem;
+}
+
+.images3 img {
+	width: 20rem;
+	margin-left: 2rem;
+	margin-bottom: 2rem;
+}
+
+.footer_eventdesign {
+	margin-bottom: 2rem;
+}
+
+.images4 img {
+	width: 15rem;
+	margin-left: 2rem;
+	margin-top: 8rem;
+	margin-bottom: 2rem;
+}
+
+.images4 video {
+	margin-bottom: 2rem;
+}
+
+.footer_usability {
+	margin-bottom: 2rem;
+}
+
+.artwork h1 {
+	margin-left: 0rem;
+	margin-top: 0rem;
+}
+
+.images3 img {
+	margin-left: 2rem;
+}
+
+.footer_shapes {
+	margin-bottom: 6rem;
+}
+
+.webdesign h1 {
+	width: 20rem;
+}
+
+.webdesign p {
+}
+
+.brandguide2  {
+	margin-top: 5rem;
+}
+
+.brandguide2 img {
+	width: 20rem;
+	margin-left: -2rem;
+	margin-bottom: 2rem;
+}
+
+
+.footer_mack {
+	margin-top: 0rem;
+	margin-bottom: 3rem;
+}
+
+.brandguide3 img {
+	width: 20rem;
+	margin-top: 3rem;
+	margin-left: -1rem;
+	margin-bottom: 2rem;
+}
+
+.brandguide3 video {
+	margin-left: -0.5rem;
+}
+
+.footer_motion {
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+}
+
+.footer_magazine {
+	margin-top: -1rem;
+	margin-bottom: 3rem;
+}
+
+.images3 {
+	margin-top: 5rem;
+	margin-left: -3rem;
+}
+
+.footer_film {
+	margin-bottom: 3rem;
+}
+
+.images10 img {
+	width: 20rem;
+	margin-bottom: 3rem;
+}
+
+.images10 {
+	margin-top: -25rem;
+	margin-left: 2rem;
+}
+
+.images11 img {
+	width: 20rem;
+	margin-top: -60rem;
+	margin-left: 2rem;
+}
+
+.about img {
+	animation-name: animation;
+	animation-duration: 1s;
+	animation-delay: 5s;
+	width: 20rem;
+
+}
+
+
+.about1 h2 {
+	font-family: Roboto;
+	font-size: 5rem;
+	margin-top: 2rem;
+	margin-left: -1rem;
+}
+
+.about3 h3 {
+	font-family: Roboto;
+	font-size: 3rem;
+	margin-top: 5rem;
+	margin-left: -1rem;
+}
+
+.about4 p {
+	font-family: roboto;
+	font-size: 2rem;
+	margin-top: 6rem;
+	margin-left: -1rem;
+}
+
+.about4 a {
+	font-family: roboto;
+	font-size: 1rem;
+	margin-top: 5rem;
+	margin-left: -1rem;
+	color: black;
+	text-decoration: none;
+}
+
+.about {
+	margin-top: 1rem;
+	margin-left: -1rem;
+}
+
+
+
+
+@keyframes animatie {
+	0% {opacity: 0%}
+	50% {opacity: 50%}
+	100% {opacity: 100%}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@supports (grid-area: auto) {
+
+@media (min-width: 1200px) {
+	.gallery .rebranding {
+		width: 40rem;
+	}
+
+	canvas {
+	  position: absolute;
+	  top: 35rem;
+	  animation-name: h1;
+	  animation-duration: 1.2s;
+	  animation-delay: 0.5s;
+	  animation-direction: alternate;
+	  animation-fill-mode: backwards;
+	}
+
+	h1 {
+	font-size: 5rem;
+	width: 60rem;
+	}
+
+	.icons {
+  position: absolute;
+  left: 36rem;
+  top: 10rem;
+  width: 4rem;
+  animation-name: h1;
+  animation-duration: 1.2s;
+  animation-delay: 1s;
+  animation-direction: alternate;
+  animation-fill-mode: backwards;
+}
+
+.text {
+  position: absolute;
+  left: 36.2rem;
+  top: 43rem;
+  font-family: 'Space Mono', monospace;
+  font-size: 0.7rem;
+  animation-name: h1;
+  animation-duration: 1.2s;
+  animation-delay: 1.4s;
+  animation-direction: alternate;
+  animation-fill-mode: backwards;
+}
+
+.gallery {
+	margin-top: 40rem;
+	margin-left: 20rem;
+}
+
+.jaar {
+	width: 30rem;
+	position: absolute;
+	top: 59rem;
+	left: 44rem;
+}
+
+.gallery p {
+
+}
+
+#container {
+  margin: 0%;
+  margin-top: -40rem;
+  margin-left: 40rem;
+	display: block;
+}
+
+#circle {
+  position: relative;
+  width: 80%;
+  padding-bottom: 20%;
+  overflow: hidden;
+
+}
+
+#circle text { font-family: 'Helvetica Neue', Arial; font-size: 17px; font-weight: bold; }
+
+#circle svg {
+	width: 70%;
+	height: 540px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+.gallery2 img {
+	width: 25rem;
+	margin-left: 40rem;
+	margin-top: 8rem;
+}
+
+.jaar2 {
+	width: 20rem;
+	position: absolute;
+	top: 110rem;
+	left: 30rem;
+}
+
+.gallery2 p {
+	margin-left: 50rem;
+}
+
+#container2 {
+  margin: 0%;
+  margin-top: -32rem;
+  margin-right: 63.9rem;
+	display: block;
+}
+
+#circle2 {
+  position: relative;
+  width: 200%;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+#circle2 text { font-family: 'Helvetica Neue', Arial; font-size: 19.5px; font-weight: bold; }
+
+#circle2 svg {
+	width: 200%;
+	height: 540px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+.einde {
+	width: 25rem;
+	margin-top: -10rem;
+	margin-left: 10rem;
+}
+
+.jaar3 {
+	width: 20rem;
+	position: absolute;
+	top: 160rem;
+	left: 42rem;
+}
+
+.design p {
+	margin-left: 19rem;
+}
+
+#container3 {
+position: absolute;
+top: 169rem;
+left: 46.5rem;
+display: block;
+}
+
+#circle3 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+#circle3 text { font-family: 'Helvetica Neue', Arial; font-size: 17.5px; font-weight: bold; }
+
+#circle3 svg {
+	width: 120%;
+	height: 540px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+.banner {
+	width: 35rem;
+	margin-left: 40rem;
+	margin-top: 10rem;
+}
+
+.jaar4 {
+	width: 20rem;
+	margin-left: 40rem;
+}
+
+.design2 p {
+	margin-left: 55rem;
+}
+
+#container4 {
+position: absolute;
+top: 178rem;
+left: 35rem;
+display: block;
+}
+
+#circle4 {
+  position: relative;
+  width: 130%;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+#circle4 text { font-family: 'Helvetica Neue', Arial; font-size: 18px; font-weight: bold; }
+
+#circle4 svg {
+	width: 120%;
+	height: 540px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+.app1 {
+width: 20rem;
+margin-left: 10rem;
+}
+
+.jaar5 {
+	width: 30rem;
+	position: absolute;
+	top: 249rem;
+}
+
+.design3 p {
+	margin-left: 17rem;
+}
+#container5 {
+position: absolute;
+top: 217rem;
+left: 23rem;
+display: block;
+}
+
+#circle5 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+#circle5 text { font-family: 'Helvetica Neue', Arial; font-size: 17px; font-weight: bold; }
+
+#circle5 svg {
+	width: 130%;
+	height: 540px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+.gallery6 img {
+	width: 30rem;
+	margin-left: 40rem;
+}
+
+.jaar6 {
+	width: 25rem;
+	position: absolute;
+	top: 279rem;
+	left: 43rem;
+}
+
+.design4 p {
+	margin-left: 53rem;
+}
+#container6 {
+position: absolute;
+top: 298rem;
+left: 37rem;
+display: block;
+}
+
+#circle6 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+#circle6 text { font-family: 'Helvetica Neue', Arial; font-size: 17px; font-weight: bold; }
+
+#circle6 svg {
+	width: 130%;
+	height: 540px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+.gallery7 img {
+	width: 40rem;
+	margin-left: 10rem;
+	margin-top: 10rem;
+}
+
+.jaar7 {
+	width: 20rem;
+	margin-left: 0rem;
+}
+
+.design5 {
+	margin-left: 19rem;
+	margin-top: -2rem;
+}
+
+#container7 {
+position: absolute;
+top: 317rem;
+left: 38rem;
+display: block;
+}
+
+#circle7 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+#circle7 text { font-family: 'Helvetica Neue', Arial; font-size: 14px; font-weight: bold; }
+
+#circle7 svg {
+	width: 130%;
+	height: 540px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+.gallery8 img {
+	width: 25rem;
+	margin-left: 50rem;
+}
+
+.jaar8 {
+	margin-left: 65rem;
+}
+
+.design6 {
+	margin-left: 38.5rem;
+	margin-top: 4rem;
+}
+
+
+#container8 {
+position: absolute;
+top: 378.5rem;
+left: 60.5rem;
+display: block;
+}
+
+#circle8 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+#circle8 text { font-family: 'Helvetica Neue', Arial; font-size: 17.5px; font-weight: bold; }
+
+#circle8 svg {
+	width: 100%;
+	height: 540px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+.magazine2 {
+	width: 30rem;
+	margin-left: 5rem;
+}
+
+.jaar9 {
+	position: absolute;
+	top: 432rem;
+	width: 20rem;
+	left: 26rem;
+}
+
+.design7 {
+	margin-left: 5rem;
+}
+
+#container9 {
+position: absolute;
+top: 410rem;
+left: 29.5rem;
+display: block;
+}
+
+#circle9 {
+  position: relative;
+  width: 130%;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+#circle9 text { font-family: 'Helvetica Neue', Arial; font-size: 19px; font-weight: bold; }
+
+#circle9 svg {
+	width: 100%;
+	height: 540px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+.filmposter2 {
+	width: 25rem;
+	margin-left: 50rem;
+}
+
+.jaar10 {
+position: absolute;
+top: 459rem;
+width: 20rem;
+left: 55rem;
+}
+
+.design8 {
+	margin-left: 48rem;
+}
+
+#container10 {
+position: absolute;
+top: 460rem;
+left: 70rem;
+display: block;
+}
+
+#circle10 {
+  position: relative;
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+}
+
+#circle10 text { font-family: 'Helvetica Neue', Arial; font-size: 13px; font-weight: bold; }
+
+#circle10 svg {
+	width: 130%;
+	height: 540px;
+
+  -webkit-animation-name: rotate;
+     -moz-animation-name: rotate;
+      -ms-animation-name: rotate;
+       -o-animation-name: rotate;
+          animation-name: rotate;
+  -webkit-animation-duration: 5s;
+     -moz-animation-duration: 5s;
+      -ms-animation-duration: 5s;
+       -o-animation-duration: 5s;
+          animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+     -moz-animation-iteration-count: infinite;
+      -ms-animation-iteration-count: infinite;
+       -o-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+     -moz-animation-timing-function: linear;
+      -ms-animation-timing-function: linear;
+       -o-animation-timing-function: linear;
+          animation-timing-function: linear;
+
+}
+
+@-webkit-keyframes rotate {
+    from { -webkit-transform: rotate(360deg); }
+    to { -webkit-transform: rotate(0); }
+}
+@-moz-keyframes rotate {
+    from { -moz-transform: rotate(360deg); }
+    to { -moz-transform: rotate(0); }
+}
+@-ms-keyframes rotate {
+    from { -ms-transform: rotate(360deg); }
+    to { -ms-transform: rotate(0); }
+}
+@-o-keyframes rotate {
+    from { -o-transform: rotate(360deg); }
+    to { -o-transform: rotate(0); }
+}
+@keyframes rotate {
+    from { transform: rotate(360deg); }
+    to { transform: rotate(0); }
+}
+
+footer {
+	margin-left: 35rem;
+	margin-bottom: 5rem;
+}
+
+.galleryrebranding h1 {
+	margin-left: 41rem;
+	width: 40rem;
+}
+
+.galleryrebranding p {
+	margin-left: 40rem;
+	width: 30rem;
+	margin-top: 13rem;
+}
+
+.own h1 {
+	margin-left: 41rem;
+	width: 40rem;
+}
+
+.own p {
+	margin-left: 40rem;
+	width: 30rem;
+	margin-top: 13rem;
+}
+
+.arte h1 {
+	margin-left: 41rem;
+	width: 40rem;
+}
+
+.arte p {
+	margin-left: 40rem;
+	width: 30rem;
+	margin-top: 13rem;
+}
+
+.artwork h1 {
+	margin-left: 41rem;
+	width: 40rem;
+}
+
+.artwork p {
+	margin-left: 40rem;
+	width: 30rem;
+	margin-top: 8rem;
+}
+
+.webdesign h1 {
+	width: 30rem;
+}
+
+.webdesign p {
+	margin-top: 14rem;
+}
+
+
+
+
+.brandguide {
+	display: grid;
+	grid-template-columns: 1fr;
+ margin-top: -15rem;
+}
+
+.brandguide img  {
+	width: 35rem;
+}
+
+.images {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-top: -38rem;
+}
+
+.images img {
+	width: 28rem;
+}
+
+.images2 {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-top: -13rem;
+}
+
+.images2 img {
+	width: 28rem;
+	margin-bottom: 2rem;
+}
+
+.images3 {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-top: -13rem;
+}
+
+.images3 img {
+	width: 28rem;
+}
+
+.images10 {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-top: -35rem;
+}
+
+.images10 img {
+	width: 28rem;
+}
+
+.images4 {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-top: -12rem;
+}
+
+.images4 img {
+	width: 23rem;
+}
+
+.images4 video{
+	margin-left: 4rem;
+}
+
+.images11 {
+	margin-top: -8rem;
+}
+
+.images11 img {
+	width: 28rem;
+}
+
+.brandguide2 {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-top: -12rem;
+}
+
+.brandguide2 img {
+	width: 28rem;
+}
+
+.brandguide3 {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin-top: -10rem;
+}
+
+.brandguide3 img {
+	width: 28rem;
+	margin-bottom: 2rem;
+}
+
+.brandguide3 video {
+	width: 28rem;
+	margin-bottom: 5rem;
+}
+
+.noimages {
+	display: none;
+}
+
+.jaarrebranding {
+	width: 25rem;
+	top: 22rem;
+	right: -8rem;
+}
+
+.jaarrebranding2 {
+	width: 25rem;
+	top: 47rem;
+	right: -8rem;
+}
+
+.jaarrebranding3 {
+	width: 25rem;
+	top: 74rem;
+	right: -8rem;
+}
+
+.jaarrebranding4 {
+	width: 25rem;
+	top: 99rem;
+	right: -8rem;
+}
+
+.jaarrebranding5 {
+	width: 25rem;
+	top: 126rem;
+	right: -8rem;
+}
+
+.jaarrebranding6 {
+	width: 25rem;
+	top: 151rem;
+	right: -8rem;
+}
+
+.jaarrebranding5b {
+	display: none;
+}
+
+.jaarrebranding6b {
+	display: none;
+}
+
+.footer_own {
+	margin-top: 18rem;
+}
+
+.footer_mack {
+	margin-top: 7rem;
+}
+
+.footer_motion {
+	margin-top: 10rem;
+}
+
+.footer_magazine {
+	margin-top: 10rem;
+}
+
+.footer_film {
+	margin-top: 10rem;
+}
+
+
+
+.jaarrebranding2c {
+	display: none;
+}
+
+.jaarrebranding3c {
+	display: none;
+}
+
+.jaarrebranding4c {
+	display: none;
+}
+
+.jaarrebranding5c {
+	display: none;
+}
+
+.jaarrebranding6c {
+	display: none;
+}
+
+.jaarrebranding7c {
+	display: none;
+}
+
+.jaarrebranding8c {
+	display: none;
+}
+
+.jaarrebranding9c {
+	display: none;
+}
+
+.jaarrebranding10c {
+	display: none;
+}
+
+.jaarrebranding11c {
+	display: none;
+}
+
+.jaarrebranding12c {
+	display: none;
+}
+
+.about img {
+	animation-name: animation;
+	animation-duration: 1s;
+	animation-delay: 5s;
+	width: 50rem;
+
+}
+
+
+.about1 h2 {
+	font-family: Roboto;
+	font-size: 5rem;
+	margin-top: 2rem;
+	margin-left: -1rem;
+}
+
+.about3 h3 {
+	font-family: Roboto;
+	font-size: 3rem;
+	margin-top: 5rem;
+	margin-left: -1rem;
+	width: 50rem;
+}
+
+.about4 p {
+	font-family: roboto;
+	font-size: 2rem;
+	margin-top: 6rem;
+	margin-left: -1rem;
+}
+
+.about4 a {
+	font-family: roboto;
+	font-size: 2rem;
+	margin-top: 3rem;
+	margin-left: -1rem;
+	color: black;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+}
+}
